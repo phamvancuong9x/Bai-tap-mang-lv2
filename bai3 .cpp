@@ -67,13 +67,6 @@ void gop_vao_c(int b[], int c[],int nb,int &nc) {
 	}
 }
 void gop_vao_c2(int a[], int c[], int na, int& nc) {
-	/*a= 1 2 7 8  9
-	*    0 1 2 3 4 
-	* c=6;
-	* 1 2 6  
-	  0 1 2
-	
-	*/
 	for (int i = 0; i < na; i++) {
 		for (int j = 0; j < nc; j++) {
 			if (a[i] <= c[j]) { themMang(c, nc, j, a[i]); break; }
