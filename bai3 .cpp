@@ -16,7 +16,7 @@ int main() {
 	int nc = 0;
 	int a[MAX];
 	int b[MAX];
-	int c[MAX];
+	int c[2*MAX];
 	cout << "\t\t===============Mang a ================\n\n";
 	nhapSoLuong(na);
 	nhapMang(a, na);
